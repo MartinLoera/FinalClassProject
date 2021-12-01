@@ -5,7 +5,8 @@
   "main": "index.js",
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1",
-    "developrun": "supervisor index.js"
+    "developrun": "supervisor index.js",
+    "lint": "./node_modules/.bin/eslint index.js"
   },
   "author": "Martin Loera",
   "license": "ISC",
